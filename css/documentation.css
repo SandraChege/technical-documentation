@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --raregrey:#a6a69b;
+  --bluepeacock:#014E4C;
+  --kimonoviolet:#5D395F;
+  --gulfstream:#01858B;
+  --black:#211f20;
+  --paradise:#6C7B30;
+}
+#wrapper{
+    display: flex;
+    position: relative;
+}
+#wrapper .sidebar{
+   position: fixed;
+   width: 200px;
+   height: 100%; 
+   background-color:var(--raregrey);
+   padding: 15px 0;
+}
+#wrapper .sidebar header{
+    color: var(--gulfstream);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+#wrapper .sidebar ul li{
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    padding: 15px;
+}
+#wrapper .sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    color: var(--kimonoviolet);
+}
+#wrapper .sidebar ul li a:hover{
+    color: var(--bluepeacock);
+}
+#wrapper .sidebar .social_media{
+   position: absolute;
+   bottom: 0;
+   left: 50%; 
+   transform: translateX(-50%);
+   display: flex;
+}
+#wrapper .sidebar .social_media a{
+    display: block;
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+    color: var(--bluepeacock);
+}
+#wrapper .sidebar .social_media a:hover{
+    color: var(--paradise);
+}
+
+#wrapper .main-section{
+   width: 100%;
+   margin-left: 200px; 
+}
+/*
+1.PADDING NOT WORKING FOR SIDEBAR
+2. HEIGHT OF THE NAVBAR SHOULD BE 100VH I.E SHOULD TAKE ENTIRE HEIGHT OF PAGE
+*/
+
+/*HOME SECTION*/
