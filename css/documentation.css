@@ -10,6 +10,12 @@
   --gulfstream:#01858B;
   --black:#211f20;
   --paradise:#6C7B30;
+  /*headings*/
+  --poppins:'Poppins', sans-serif;
+  /*subheadings*/
+  --roboto:'Roboto', sans-serif;
+  /*body*/
+  --montserrat:'Montserrat', sans-serif;
 }
 #wrapper{
     display: flex;
@@ -75,3 +81,23 @@
 */
 
 /*HOME SECTION*/
+#Home header{
+    text-align: center;
+    color: var(--gulfstream);
+    font-size: 25px;
+    font-family: var(--poppins);
+    text-decoration: underline;
+    padding: 5px;
+}
+#Home .homeintro, #Home .homeframeworks, #Home .homewhy {
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#home .homewhy h4{
+    text-align: left;
+    font-family: var(--roboto);
+}
