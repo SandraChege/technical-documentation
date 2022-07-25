@@ -101,7 +101,6 @@
     font-family: var(--roboto);
 }
 .listlist {
-    list-style-type: decimal  !important;
     padding-left: 40px;
 }
 
@@ -134,7 +133,10 @@
     IF TO USE (PRE AND CODE) OR (CODE AND LINE BREAK)  
 }
 */
-
+/*VARIABLES*/
+#Variables{
+    margin-left: 200px;
+}
 /*FUNCTION*/
 #Function{
     margin-left: 200px;

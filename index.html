@@ -47,7 +47,7 @@
                <div class="homewhy">
                     <h4 class="subheadings">Why learn Javascript</h4>
                     <p>
-                        <ul class="listlist">
+                        <ol class="listlist">
                             <li>It's the most popular programming language.Javascript helps you develop great 
                                 front-end as well as back-end softwares using different Javascript based frameworks 
                                 like jQuery, Node.JS etc.</li>
@@ -64,14 +64,14 @@
                                 User Experience</li>
     
                             <li>JavaScript is easy to learn</li>
-                        </ul>
+                        </ol>
                     </p>
                </div>
                <div class="homeframeworks">
                     <h4>Javascript Frameworks</h4>
                     <p>
                         Thera are many javascript frameworks and libraries. They include:
-                        <ul class="listlist">
+                        <ol class="listlist">
                             <li>Angular</li>
                             <li>React</li>
                             <li>JQuery</li>
@@ -79,7 +79,7 @@
                             <li>Meteor</li>
                             <li>Node.js</li>
                             <li>Ember.js</li>
-                        </ul>
+                        </ol>
                     </p>
                </div>
             </section>
@@ -101,10 +101,10 @@
                         Comments can also be used to add suggestions or put warnings in code. Any JavaScript 
                         comment is ignored by the web browser. There are two different ways to write comments 
                         in Javascript on a; 
-                            <ul class="listlist commentslist">
+                            <ol class="listlist commentslist">
                                 <li>Single line</li>
                                 <li>Multiple lines</li>
-                            </ul>
+                            </ol>
                     </p>
                     <div class="singlecomments">
                         <h4>Single line comments</h4>
@@ -145,6 +145,55 @@
         </section>
         <section class="main-section" id="Variables">
             <header id="headings">Variables</header>
+            <div class="var-wrapper">
+                <div class="var-container">
+                    <div class="var-intro">
+                        <p>
+                            A variable is a storage location. There are a set of rules one needs to observe when naming variables:
+                            <ol class="listlist">
+                                <li>Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.</li>
+                                <li>Name must not be a <a href="https://www.edureka.co/blog/javascript-reserved-words/">reserved</a> words.</li>
+                                <li>After first letter we can use digits (0 to 9), for example value1.</li>
+                                <li>JavaScript variables are case sensitive, for example x and X are different variables</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div class="var-syntax">
+                        <h4>Variable Syntax</h4>
+                        When declaring a variable one must declare with either <em>let</em> or <em>const</em>.
+                        For example:
+                        <div class="js-code">
+                            <code>
+                                const Area; // declares a variable called Area.
+                                or
+                                let Area; //declares a variable called area
+                            </code>
+                        </div>
+                        Storing a value in a variable is called <span> variable initialization</span>. An example is:
+                        <div class="js-code">
+                            <code>
+                                //initializes a variable called width to 5
+                                let width=5;
+                            </code>
+                        </div>
+                    </div>
+                    <div class="var-scopes">
+                        <h4>Javascript Variable Scope</h4>
+                        <p>
+                            In javascript there are two types of variables:
+                            <ol class="listlist">
+                                <li>Local Variable - A local variable is declared inside a function. It can only be accessible in that function.</li>
+                                <li>Global Variable - A  global variable has global scope which means it can be defined anywhere in your JavaScript code.</li>
+                            </ol>
+                        </p>
+                        <div class="js-code">
+                            <code>
+                                
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="main-section" id="Operators">
             <header id="headings">Operators</header>
