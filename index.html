@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/c2761d2df3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
     <title>BASIC LANGUAGES</title>
 </head>
 <body>
@@ -38,24 +38,24 @@
             </nav>
 
             <section class="main-section" id="Home">
-                <header>Home</header>
+                <header id="headings">Home</header>
                 <div class="homeintro">
                     <p>
                         Javascript is a programming language of the web. It was invented by Brendan Eich in 1995. 
                     </p>
                 </div>
                <div class="homewhy">
-                    <h4>Why learn Javascript</h4>
+                    <h4 class="subheadings">Why learn Javascript</h4>
                     <p>
-                        <ul>
+                        <ul class="listlist">
                             <li>It's the most popular programming language.Javascript helps you develop great 
                                 front-end as well as back-end softwares using different Javascript based frameworks 
                                 like jQuery, Node.JS etc.</li>
                                 
-                            <li>JavaScript is everywhere. comes installed on every modern web browser and so to 
+                            <li>JavaScript is everywhere.It comes installed on every modern web browser and so to 
                                 learn Javascript you really do not need any special environment setup.</li>
     
-                            <li>It's a Valuable Tool for Game Designers. Games are a big business today, and developers 
+                            <li>It's a valuable tool for game designers. Games are a big business today, and developers 
                                 who know JavaScript have that extra advantage. The language's versatility, power, and 
                                 ability to easily create visual effects make it a perfect fit for game developers.</li>
                                 
@@ -63,7 +63,7 @@
                                 your website with a console like look and feel and give your users the best Graphical 
                                 User Experience</li>
     
-                            <li>JavaScript is Easy to Learn</li>
+                            <li>JavaScript is easy to learn</li>
                         </ul>
                     </p>
                </div>
@@ -71,7 +71,7 @@
                     <h4>Javascript Frameworks</h4>
                     <p>
                         Thera are many javascript frameworks and libraries. They include:
-                        <ul>
+                        <ul class="listlist">
                             <li>Angular</li>
                             <li>React</li>
                             <li>JQuery</li>
@@ -86,25 +86,142 @@
         </div>
         
         <section class="main-section" id="Introduction">
-            <header>Introduction</header>
+            <header id="headings">Introduction</header>
         </section>
         <section class="main-section" id="Syntax">
-            <header>Syntax</header>
+            <header id="headings">Syntax</header>
         </section>
+        <!--COMMENT SECTION-->
         <section class="main-section" id="Comments">
-            <header>Comments</header>
+            <header id="headings">Comments</header>
+            <div class="comments-container">
+                <div class="comments">
+                    <p>
+                        JavaScript comments are meaningful way to explain complex code in simple plain English. 
+                        Comments can also be used to add suggestions or put warnings in code. Any JavaScript 
+                        comment is ignored by the web browser. There are two different ways to write comments 
+                        in Javascript on a; 
+                            <ul class="listlist commentslist">
+                                <li>Single line</li>
+                                <li>Multiple lines</li>
+                            </ul>
+                    </p>
+                    <div class="singlecomments">
+                        <h4>Single line comments</h4>
+                        <div class="scomments1">
+                           <p>
+                            Single line comments begin with two forward slashes (<span class="comment-span">//</span>).
+                            <div class="js-code">
+                                <code>
+                                    //Declare variable X and give it a value of 10. </br>
+                                    let X=10; <br>
+                                    //Declares variable Y and adds 5 to the variable X <br>
+                                    let Y=5+X <br>
+                                </code>                               
+                            </div>
+                           </p>
+                        </div>
+                    </div>
+                    <div class="multi-comments">
+                        <h4>Multiline (Block) comments</h4>
+                        <div class="mcomments">
+                            Multi-line comments start with <span class="comment-span"> /*</span> and end with <span class="comment-span">*/</span> .
+                            Any text between <span class="comment-span">/*</span> and <span class="comment-span">*/</span> will be ignored by JavaScript.
+                            <div class="js-code">
+                                    <code>
+                                        /* <br>
+                                        This is a multiline comment 1 <br>
+                                        This is a multiline comment 2 <br>
+                                        This is a multiline comment 3 <br>
+                                        This is a multiline comment 4 <br>
+                                        This is a multiline comment 5 <br>
+                                        */
+                                    </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="main-section" id="Variables">
-            <header>Variables</header>
+            <header id="headings">Variables</header>
         </section>
         <section class="main-section" id="Operators">
-            <header>Operators</header>
+            <header id="headings">Operators</header>
         </section>
         <section class="main-section" id="Data_types">
-            <header>Data types</header>
+            <header id="headings">Data types</header>
         </section>
+        <!--FUNCTION SECTION-->
         <section class="main-section" id="Function">
-            <header>Function</header>
+            <header id="headings">Function</header>
+            <div class="func-wrapper">
+                <div class="func-container">
+                    <div class="func_intro">
+                        <p>
+                            A function is a reusable block of code that performs a specific task.
+                        </p>
+                    </div>
+                    <div class="func-syntax">
+                        <h4 class="subheadings">Function Syntax</h4>
+                        <div class="func-syntax1">
+                            <p>A JavaScript function is defined with the function keyword, followed by a function name, 
+                                followed by parentheses (). 
+                                <div class="js-code">
+                                    <code>
+                                        function functionname(){ <br>
+                                            //block of code <br>
+                                        }
+                                    </code>
+                                </div>
+                             </p>
+                        </div>
+                        <div class="func-syntax2">
+                            In the parentheses, parameters can be passed. The parameters are separated 
+                            by a comma.
+                            <div class="js-code">
+                                <code>
+                                    function identifier(parameter 1, parameter 2, parameter 3){ <br>
+                                        //block of code <br>
+                                    }
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="func-call">
+                        <h4 class="subheadings">Calling a function</h4>
+                        <p>To call a function, you type the function name followed by parentheses.</p>
+                        <div class="js-code">
+                            <code>
+                                //create a function called animal <br>
+                                function animal(){ <br>
+                                    console.log("I love dogs"); <br>
+                                } <br>
+                                //calls the function animal <br>
+                                animal(); <br>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="func-return">
+                        <h4 class="subheadings">Return statement</h4>
+                        <p>
+                            To pass information from a function, Javascript uses <em>return statement</em>.
+                            When JavaScript reaches a return statement, the function will stop executing.
+                            <div class="js-code" style="margin-bottom: 10px;">
+                                <code>
+                                    function rectanglearea(){ <br>
+                                        let width=10; <br>
+                                        let height=5; <br>
+                                        
+                                        let area=width*height; <br>
+                                        return area; <br>
+                                    }
+                                </code>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

@@ -17,6 +17,7 @@
   /*body*/
   --montserrat:'Montserrat', sans-serif;
 }
+
 #wrapper{
     display: flex;
     position: relative;
@@ -38,7 +39,7 @@
     border-bottom: 1px solid black;
 }
 #wrapper .sidebar ul li{
-    list-style-type: none;
+    list-style: none;
     font-size: 20px;
     text-transform: capitalize;
     text-align: center;
@@ -72,16 +73,15 @@
 }
 
 #wrapper .main-section{
-   width: 100%;
+    /* width: 80%;*/
    margin-left: 200px; 
 }
-/*
-1.PADDING NOT WORKING FOR SIDEBAR
-2. HEIGHT OF THE NAVBAR SHOULD BE 100VH I.E SHOULD TAKE ENTIRE HEIGHT OF PAGE
-*/
 
 /*HOME SECTION*/
-#Home header{
+#Home{
+    padding-left: 2px;
+}
+#headings{
     text-align: center;
     color: var(--gulfstream);
     font-size: 25px;
@@ -91,7 +91,6 @@
 }
 #Home .homeintro, #Home .homeframeworks, #Home .homewhy {
     font-family: var(--montserrat);
-    padding: 2px;
     word-wrap: normal;
     line-height: 30px;
     overflow-x: hidden;
@@ -100,4 +99,58 @@
 #home .homewhy h4{
     text-align: left;
     font-family: var(--roboto);
+}
+.listlist {
+    list-style-type: decimal  !important;
+    padding-left: 40px;
+}
+
+/*COMMENTS SECTION*/
+#Comments{
+    margin-left: 200px;
+}
+.comments p, .singlecomments, .multi-comments{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.commentslist{
+    font-family: var(--montserrat);
+    line-height: 30px;
+}
+.comment-span{
+    color: red;
+}
+.js-code{
+    background-color: rgba(211, 211, 211, .4);/*light grey*/
+    margin-top: 5px;
+}
+/*
+.commentcode code{
+    text-align: left;
+    IF TO USE (PRE AND CODE) OR (CODE AND LINE BREAK)  
+}
+*/
+
+/*FUNCTION*/
+#Function{
+    margin-left: 200px;
+}
+.func-wrapper{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h4{
+    font-family: var(--roboto);
+    font-size: 17.5px;
+    text-decoration: none;
+    padding: 5px auto 10px 5px;
+    margin: 10px auto;
 }
