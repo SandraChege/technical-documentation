@@ -103,7 +103,32 @@
 .listlist {
     padding-left: 40px;
 }
-
+/*INTRODUCTION*/
+#Introduction{
+    margin-left: 200px;
+}
+.intro-wrapper{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#Syntax{
+    margin-left: 200px;
+}
+.syntax-wrapper{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+.syntax-wrapper span{
+    color: var(--gulfstream);
+}
 /*COMMENTS SECTION*/
 #Comments{
     margin-left: 200px;
@@ -147,6 +172,39 @@
 }
 .var-intro a, #Variables span{
     color: var(--gulfstream);
+}
+/*OPERATORS*/
+#Operators{
+    margin-left: 200px;
+}
+.operator-wrapper{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+.tab_operators{
+    display: table;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.tab_operators tr:nth-child(odd){
+    background-color: rgba(108, 123, 48, .4);
+}
+
+th{
+    font-weight: bold;
+}
+th,td{
+    border: 1px solid;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
 }
 /*FUNCTION*/
 #Function{

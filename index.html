@@ -87,9 +87,54 @@
         
         <section class="main-section" id="Introduction">
             <header id="headings">Introduction</header>
+            <div class="intro-wrapper">
+                <div class="intro-container">
+                    Javascript is a tranlated language. JavaScript is an object-based scripting language 
+                    which is lightweight and cross-platform.
+                    <h4> JavaScript History</h4>
+                    <p>
+                        In 1993, Mosaic, the first popular web browser, came into existence. In the year 1994, Netscape was 
+                        founded by Marc Andreessen. He realized that the web needed to become more dynamic. Thus, a 'glue 
+                        language' was believed to be provided to HTML to make web designing easy for designers and part-time 
+                        programmers. Consequently, in 1995, the company recruited Brendan Eich intending to implement and 
+                        embed Scheme programming language to the browser. But, before Brendan could start, the company 
+                        merged with Sun Microsystems for adding Java into its Navigator so that it could compete with 
+                        Microsoft over the web technologies and platforms. Now, two languages were there: Java and the 
+                        scripting language. Further, Netscape decided to give a similar name to the scripting language as 
+                        Java's. It led to 'Javascript'. Finally, in May 1995, Marc Andreessen coined the first code of 
+                        Javascript named 'Mocha'. Later, the marketing team replaced the name with 'LiveScript'. But, 
+                        due to trademark reasons and certain other reasons, in December 1995, the language was finally 
+                        renamed to 'JavaScript'. From then, JavaScript came into existence.
+                    </p>
+                    <h4>Application of Javascript</h4>
+                    <ol class="listlist">
+                        <li>Web application</li>
+                        <li>Web Development</li>
+                        <li>Mobile Application</li>
+                        <li>Game Development</li>
+                        <li>Client-side Validation</li>
+                        <li>Server Applications</li>
+                        <li>Web Server</li>
+                        <li>Presentations and slideshows</li>
+                        <li>Dynamic drop-down menus</li>
+                    </ol>
+                </div>
+            </div>
         </section>
         <section class="main-section" id="Syntax">
             <header id="headings">Syntax</header>
+            <div class="syntax-wrapper">
+                <div class="syntax-container">
+                    <p>
+                        JavaScript is implemented using JavaScript statements that are placed within <span> script </span> in HTML head.
+                    </p>
+                    <h4>Case Sensitivity</h4>
+                    <p>
+                        JavaScript is a case-sensitive language. This means that the language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
+                        City and city in JavaScript have two very different meanings.
+                    </p>
+                </div>
+            </div>
         </section>
         <!--COMMENT SECTION-->
         <section class="main-section" id="Comments">
@@ -210,8 +255,126 @@
                 </div>
             </div>
         </section>
+        <!--OPERATORS-->
         <section class="main-section" id="Operators">
             <header id="headings">Operators</header>
+            <div class="operator-wrapper">
+                <div class="operator-container">
+                    <div>
+                        JavaScript operators are symbols that are used to perform operations on operands. For example;
+                        <div class="js-code">
+                            <code>
+                                var multiply = 10 * 20;
+                            </code>
+                        </div>
+                        In the example above, 10 and 20 are the operands while = is the operator.
+
+                        Javascript has the following operators;
+                        <ol class="listlist">
+                            <li>Arithmetic operators</li>
+                            <li>Comparison Operators</li>
+                            <li>Bitwise operators</li>
+                            <li>Logical operators</li>
+                            <li>Assignment Operators</li>
+                            <li>Special Operators</li>
+                        </ol>
+                    </div>
+                    <div class="arithmetic">
+                        <h4>Arithmetic Operators</h4>
+                        <p>Arithmetic operators perform arithmetic operation on operands. They include:</p>
+                        <table class="tab_operators">
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th><th>Example</th></tr>
+                                <tr><td>+</td><td>Addition</td><td>60+20 = 80</td></tr>
+                                <tr><td>-</td><td>Subtraction</td><td>20-15 = 5</td></tr>
+                                <tr><td>*</td><td>Multiplication</td><td>5*20 = 100</td></tr>
+                                <tr><td>/</td><td>Division</td><td> 20/10 = 2</td></tr>
+                                <tr><td>%</td><td>Modulus (Remainder)</td><td>20%10 = 0</td></tr>
+                                <tr><td>++</td><td>Increment</td><td>var b=20; a++; Now b = 21</td></tr>
+                                <tr><td>--</td><td>Decrement</td><td>var b=20; a--; Now b = 19</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="comparison">
+                        <h4>Comparison Operators</h4>
+                        <p>Comparison operators compare values between two operands. They include:</p>
+                        <table class="tab_operators">
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th><th>Example</th></tr>
+                                <tr><td>==</td><td>Is equal to</td><td>10==20 = false</td></tr>
+                                <tr><td>===</td><td>Identical (equal and of same type)</td><td>10==20 = false</td></tr>
+                                <tr><td>!=</td><td>Not equal to</td><td>10!=20 = true</td></tr>
+                                <tr><td>!==</td><td>Not Identical</td><td> 20!==20 = false</td></tr>
+                                <tr><td>&gt;</td><td>Greater than</td><td>20&gt;10 = true</td></tr>
+                                <tr><td>&gt;=</td><td>Greater than or equal to</td><td>20&gt;=10 = true</td></tr>
+                                <tr><td>&lt;</td><td>Less than</td><td>20&lt;10 = false</td></tr>
+                                <tr><td>&lt;=</td><td>Less than or equal to</td><td>20&lt;=10 = false</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="bitwise">
+                        <h4>Bitwise Operators</h4>
+                        <table class="tab_operators">
+                            <p>Bitwise operators perform bitwise operations on operands. Bitwise operators include;</p>
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th><th>Example</th></tr>
+                                <tr><td>&amp;</td><td>Bitwise AND</td><td>(10==20 &amp; 20==33) = false</td></tr>
+                                <tr><td>|</td><td>Bitwise OR</td><td>(10==20 | 20==33) = false</td></tr>
+                                <tr><td>^</td><td>Bitwise XOR</td><td>(10==20 ^ 20==33) = false</td></tr>
+                                <tr><td>~</td><td>Bitwise NOT</td><td> (~10) = -10</td></tr>
+                                <tr><td>&lt;&lt;</td><td>Bitwise Left Shift</td><td>(10&lt;&lt;2) = 40</td></tr>
+                                <tr><td>&gt;&gt;</td><td>Bitwise Right Shift</td><td>(10&gt;&gt;2) = 2</td></tr>
+                                <tr><td>&gt;&gt;&gt;</td><td>Bitwise Right Shift with Zero</td><td>(10&gt;&gt;&gt;2) = 2</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="logical">
+                        <h4>Logical Operators</h4>
+                        <table class="tab_operators">
+                            <p>The following operators are known as JavaScript logical operators</p>
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th><th>Example</th></tr>
+                                <tr><td>&amp;&amp;</td><td>Logical AND</td><td>(10==20 &amp;&amp; 20==33) = false</td></tr>
+                                <tr><td>||</td><td>Logical OR</td><td>(10==20 || 20==33) = false</td></tr>
+                                <tr><td>!</td><td>Logical Not</td><td>!(10==20) = true</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="assignment">
+                        <h4>Assignment Operators</h4>
+                        <p>The following operators are known as JavaScript assignment operators</p>
+                        <table class="tab_operators">
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th><th>Example</th></tr>
+                                <tr><td>=</td><td>Assign</td><td>10+10 = 20</td></tr>
+                                <tr><td>+=</td><td>Add and assign</td><td>var a=10; a+=20; Now a = 30</td></tr>
+                                <tr><td>-=</td><td>Subtract and assign</td><td>var a=20; a-=10; Now a = 10</td></tr>
+                                <tr><td>*=</td><td>Multiply and assign</td><td>var a=10; a*=20; Now a = 200</td></tr>
+                                <tr><td>/=</td><td>Divide and assign</td><td>var a=10; a/=2; Now a = 5</td></tr>
+                                <tr><td>%=</td><td>Modulus and assign</td><td>var a=10; a%=2; Now a = 0</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="special">
+                        <h4>Special Operators</h4>
+                        <p>The following operators are known as JavaScript special operators</p>
+                        <table class="tab_operators">
+                            <tbody>
+                                <tr><th>Operator</th><th>Description</th></tr>
+                                <tr><td>(?:)</td><td>Conditional Operator returns value based on the condition. It is like if-else.</td></tr>
+                                <tr><td>,</td><td>Comma Operator allows multiple expressions to be evaluated as single statement.</td></tr>
+                                <tr><td>delete</td><td>Delete Operator deletes a property from the object.</td></tr>
+                                <tr><td>in</td><td>In Operator checks if object has the given property</td></tr>
+                                <tr><td>instanceof</td><td>checks if the object is an instance of given type</td></tr>
+                                <tr><td>new</td><td>creates an instance (object)</td></tr>
+                                <tr><td>typeof</td><td>checks the type of object.</td></tr>
+                                <tr><td>void</td><td>it discards the expression's return value.</td></tr>
+                                <tr><td>yield</td><td>checks what is returned in a generator by the generator's iterator.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="main-section" id="Data_types">
             <header id="headings">Data types</header>
