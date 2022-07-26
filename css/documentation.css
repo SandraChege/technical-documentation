@@ -137,6 +137,17 @@
 #Variables{
     margin-left: 200px;
 }
+.var-wrapper{
+    font-family: var(--montserrat);
+    padding: 2px;
+    word-wrap: normal;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.var-intro a, #Variables span{
+    color: var(--gulfstream);
+}
 /*FUNCTION*/
 #Function{
     margin-left: 200px;

@@ -151,8 +151,9 @@
                         <p>
                             A variable is a storage location. There are a set of rules one needs to observe when naming variables:
                             <ol class="listlist">
-                                <li>Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.</li>
-                                <li>Name must not be a <a href="https://www.edureka.co/blog/javascript-reserved-words/">reserved</a> words.</li>
+                                <li>Name must start with a letter (a to z or A to Z).underscore( _ ), or dollar( $ ) sign.</li>
+                                <li>Names can contain letters, digits, underscores, and dollar signs.</li>
+                                <li>Name must not be a <a href="https://www.edureka.co/blog/javascript-reserved-words/" target="_blank">reserved</a> words.</li>
                                 <li>After first letter we can use digits (0 to 9), for example value1.</li>
                                 <li>JavaScript variables are case sensitive, for example x and X are different variables</li>
                             </ol>
@@ -161,19 +162,21 @@
                     <div class="var-syntax">
                         <h4>Variable Syntax</h4>
                         When declaring a variable one must declare with either <em>let</em> or <em>const</em>.
+                        If you want a general rule: always declare variables with const. If you think the value of the variable can change, use let.
                         For example:
                         <div class="js-code">
                             <code>
-                                const Area; // declares a variable called Area.
-                                or
-                                let Area; //declares a variable called area
+                                const name; // declares a variable called name. <br>
+                                or <br>
+                                let Area; //declares a variable called area <br>
                             </code>
                         </div>
+                        In JavaScript creating a variable is called <span>variable declaration</span>.
                         Storing a value in a variable is called <span> variable initialization</span>. An example is:
                         <div class="js-code">
                             <code>
-                                //initializes a variable called width to 5
-                                let width=5;
+                                //initializes a variable called width to 5 <br>
+                                let width=5; <br>
                             </code>
                         </div>
                     </div>
@@ -188,7 +191,19 @@
                         </p>
                         <div class="js-code">
                             <code>
-                                
+                                //local variables <br>
+                                function sum(){ <br>
+                                    let x = 10; <br>
+                                    let y = 5; <br>
+                                    let z = x + y; <br>
+                                }
+
+                                //global variable
+                                let greetings = Buenos días; <br>
+
+                                functionmorning(){ <br>
+                                    console.log(greetings); <br>
+                                }//the function above will output Buenos días
                             </code>
                         </div>
                     </div>
