@@ -17,7 +17,6 @@
   /*body*/
   --montserrat:'Montserrat', sans-serif;
 }
-
 #wrapper{
     display: flex;
     position: relative;
@@ -188,6 +187,7 @@
 .tab_operators{
     display: table;
     border: 1px solid;
+    width: 800px;
     text-align: center;
     margin-left: 100px;
     margin-top: 15px;
@@ -224,4 +224,55 @@ h4{
     text-decoration: none;
     padding: 5px auto 10px 5px;
     margin: 10px auto;
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width:700px) {
+    #wrapper .sidebar{
+        padding: 15px 10px;
+    }
+    #wrapper .sidebar header{
+        font-size: 20px;
+    }
+    #wrapper .sidebar ul li{
+        font-size: 18px;
+        padding: 10px;
+    }
+    #wrapper .sidebar .social_media{
+        left: 40%;
+        transform: translateX(-40%);
+    }
+    #wrapper .sidebar .social_media a{
+        margin: 0 3.5px;
+    }
+    .tab_operators{
+        width: 650px;
+    }
+    #Operators table th, #Operators table td{
+        padding: 8px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #wrapper .sidebar{
+        padding: 10px 10px;
+    }
+    #wrapper .sidebar header{
+        font-size: 18px;
+    }
+    #wrapper .sidebar ul li{
+        font-size: 16.5px;
+        padding: 7.5px;
+    }
+    #wrapper .sidebar .social_media{
+        left: 30%;
+        transform: translateX(-30%);
+    }
+    #wrapper .sidebar .social_media a{
+        margin: 0 2.5px;
+    }
+    #Operators table th, #Operators table td{
+        padding: 5px;
+    }
+    .tab_operators{
+        width: 480px;
+    }
 }
