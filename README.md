@@ -14,5 +14,5 @@ None currently found.
 ### Technologies used
 HTML, CSS, JS
 
-#### Licenses
+### Licenses
 MIT License Copyright (c) 2022 Mwihaki
