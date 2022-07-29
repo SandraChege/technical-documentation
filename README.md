@@ -9,8 +9,10 @@
 ### Demo
 
 ### Known bugs
+None currently found.
 
 ### Technologies used
 HTML, CSS, JS
 
-#### licenses
+#### Licenses
+MIT License Copyright (c) 2022 Mwihaki
