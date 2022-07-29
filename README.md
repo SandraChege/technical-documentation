@@ -1,10 +1,16 @@
 # Technical-Documentation
 
-###Description
+### Description
+
 ### BDD(Behaviour Driven Development)
+
 ### Requirement
-###Demo
-###Known bugs
-###Technologies used
+
+### Demo
+
+### Known bugs
+
+### Technologies used
 HTML, CSS, JS
-####licenses
+
+#### licenses
